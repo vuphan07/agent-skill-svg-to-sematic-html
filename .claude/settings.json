@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/extract_assets.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/analyze_svg.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/transpile_flat.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/visual_diff.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/stitch.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/batch_check.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/serve.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/gemini_vision.py:*)",
+      "Bash(python .claude/skills/svg-to-semantic-html/scripts/inline_build.py:*)",
+      "Bash(node .claude/skills/svg-to-semantic-html/scripts/render_compare.js:*)"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+# secrets
+**/.env
+
+# personal Claude Code overrides (machine-specific)
+.claude/settings.local.json
+settings.local.json
+bugs
+# dependencies (regenerate: npm i)
+node_modules/
+
+# generated verification artifacts (regenerate: batch_check.py)
+compare/
+
+# generated conversion outputs (regenerate from svg-input via the skill).
+# Comment this out if you want to ship the built pages / standalone files.
+html-output/
